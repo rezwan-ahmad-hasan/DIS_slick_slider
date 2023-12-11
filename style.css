@@ -10,32 +10,35 @@ body {
 
 .slick span {
   display: block;
-  background: #3498db;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
   font-size: 36px;
-  height: 100px;
-  line-height: 100px;
+  height: auto;
+  /* line-height: 100px; */
   position: relative;
   text-align: center;
-
+  
   transform: translate(0, 0) scale(0.4);
   transition: all 0.4s ease;
-  opacity: 0.5;
+  /* opacity: 0.5; */
+  box-shadow: 5px 5px 20px #888888;
+  border-radius: 9px;
 }
 
-.slick-slide {
-  
+.slick-slide img{
+  width: 100%;
+  border-radius: 9px 9px 0px 0px;
 }
 
 .slick-slide.lt2 span {
   transform: translate(10%, 0) scale(0.6);
 }
 .slick-slide.lt1 span {
-  opacity: 0.7;
+  /* opacity: 0.7; */
   transform: translate(20%, 0) scale(0.8);
 }
 .slick-slide.gt1 span {
-  opacity: 0.7;
+  /* opacity: 0.7; */
   transform: translate(-20%, 0) scale(0.8);
 }
 .slick-slide.gt2 span {
